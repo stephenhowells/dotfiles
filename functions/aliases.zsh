@@ -32,7 +32,7 @@ alias dsf="git diff --color | diff-so-fancy"
 alias serve-me="python -m SimpleHTTPServer 8000"
 alias dokku='bash $HOME/.dokku/contrib/dokku_client.sh'
 # Phoenix
-alias phx='mix phoenix.new'
+alias phx='mix phx.new'
 # Harp
 alias hs='NODE_ENV=development harp server --port 8000'
 # Testing

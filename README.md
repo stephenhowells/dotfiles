@@ -16,7 +16,7 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 # Make install scripts executable
 $ chmod +x ~/.dotfiles/scripts/*.sh
 
-# Symlink the dotfiles, Homebrew install, OMZ plugins
+# Symlink the dotfiles, Homebrew install, NVM install, OMZ plugins
 $ sh ~/.dotfiles/scripts/install.sh
 
 # Goodies (Ruby, Node, Vim)
