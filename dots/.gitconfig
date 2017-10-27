@@ -1,10 +1,12 @@
 [user]
 	name = Stephen Howells
-  email = stephen@spaceshipoperator.io
+	email = stephen@spaceshipoperator.io
 [github]
-  user = stephenhowells
+	user = stephenhowells
 [color]
 	ui = true
+[core]
+	excludesfile = ~/.gitignore
 [difftool]
 	tool = Kaleidoscope
 [merge]
