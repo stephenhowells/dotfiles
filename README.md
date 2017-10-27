@@ -1,15 +1,26 @@
 # 🔥 Stephen's Dotfiles 🔥
 
-> An endless work in progress.
+> Quickly install a beautiful custom ZSH environment along with Homebrew, rbenv, NVM, Go, Elixir, PostgreSQL, Redis, Yarn, Tmux, and a nice Vim editor. My dotfiles are opinionated and obviously superior. Enjoy.
 
 ![iTerm2](https://raw.github.com/stephenhowells/dotfiles/master/iterm/terminal.png)
 
 ### Installation
 
 ```sh
+# Clone the repo
 $ git clone https://github.com/stephenhowells/dotfiles.git ~/.dotfiles
+
+# Install Oh My ZSH
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Make install scripts executable
+$ chmod +x ~/.dotfiles/scripts/*.sh
+
+# Symlink the dotfiles, Homebrew install, OMZ plugins
 $ sh ~/.dotfiles/scripts/install.sh
+
+# Goodies (Ruby, Node, Vim)
+$ sh ~/.dotfiles/scripts/post-install.sh
 ```
 
 ### Pro Tips
