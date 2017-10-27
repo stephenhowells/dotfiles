@@ -4,7 +4,7 @@
 
 ![iTerm2](https://raw.github.com/stephenhowells/dotfiles/master/iterm/terminal.png)
 
-#### Installation
+### Installation
 
 ```sh
 $ git clone https://github.com/stephenhowells/dotfiles.git ~/.dotfiles
@@ -12,7 +12,7 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 $ sh ~/.dotfiles/scripts/install.sh
 ```
 
-#### Pro Tips
+### Pro Tips
 
 1. I use [iTerm2](https://www.iterm2.com) and you should too.
 2. The [Base16 iTerm2](https://github.com/chriskempson/base16-iterm2) repository has pretty much any color scheme you'd ever want for iTerm2. I use a tweaked version of the `base16-unikittydark.dark` theme which is included in the root of this repository named `stephen.itermcolors`. Simply import that file into iTerm2 and select it as your color preset.
@@ -27,6 +27,6 @@ $ sh ~/.dotfiles/scripts/install.sh
 ⌥→  "SEND ESC SEQ"  f     # Move cursor one word forward.
 ```
 
-#### License
+### License
 
 MIT

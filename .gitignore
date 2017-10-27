@@ -11,6 +11,8 @@
 # Secrets
 secrets/*
 !secrets/.gitkeep
+.vim/bundle/*
+!.vim/bundle/.gitkeep
 
 # Web Dev
 node_modules/
