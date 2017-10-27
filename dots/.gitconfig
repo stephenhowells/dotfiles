@@ -1,0 +1,18 @@
+[user]
+	name = Stephen Howells
+  email = stephen@spaceshipoperator.io
+[github]
+  user = stephenhowells
+[color]
+	ui = true
+[difftool]
+	tool = Kaleidoscope
+[merge]
+	tool = Kaleidoscope
+[pager]
+	diff = diff-so-fancy | less --tabs=1,5 -RFX
+	show = diff-so-fancy | less --tabs=1,5 -RFX
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f

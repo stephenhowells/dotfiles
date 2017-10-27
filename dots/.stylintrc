@@ -1,0 +1,15 @@
+{
+  "brackets": "never",
+  "colons": "never",
+  "commaSpace": "always",
+  "commentSpace": "always",
+  "efficient": "always",
+  "exclude": ["vendor/**/*", "node_modules/**/*"],
+  "groupOutputByFile": true,
+  "indentPref": 2,
+  "leadingZero": "never",
+  "mixed": true,
+  "noImportant": false,
+  "semicolons": "never",
+  "trailingWhitespace": "never"
+}
