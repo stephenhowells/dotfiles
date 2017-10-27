@@ -10,13 +10,15 @@
 
 # Secrets
 secrets/*
-!secrets/.gitkeep
 
 # Editor
-.vim/bundle/*
-!.vim/bundle/.gitkeep
+.vim/**/*
 
 # Web Dev
 node_modules/
 .env
 .sass-cache
+
+# Empty Folders
+!.gitkeep
+!*/
