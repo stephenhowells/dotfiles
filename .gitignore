@@ -11,6 +11,8 @@
 # Secrets
 secrets/*
 !secrets/.gitkeep
+
+# Editor
 .vim/bundle/*
 !.vim/bundle/.gitkeep
 
