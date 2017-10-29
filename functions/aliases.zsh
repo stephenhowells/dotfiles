@@ -61,5 +61,3 @@ alias ber='bundle exec rspec'
 alias bers='bundle exec rails s'
 # Vue
 alias nuxt='vue init nuxt/starter'
-# Next
-alias nextjs='git clone https://github.com/stephenhowells/next-bootstrap.git && cd next-bootstrap && yarn && yarn run dev'

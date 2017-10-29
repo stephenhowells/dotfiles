@@ -66,3 +66,17 @@ function extract {
         echo "'$1' is not a valid file"
     fi
 }
+
+#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
+#
+# Next.js Bootstrap
+
+nextjs() {
+    curl -LO https://github.com/stephenhowells/next-bootstrap/archive/master.zip
+    unzip master.zip
+    mv next-bootstrap-master "$*"
+    cd "$*"
+    git init
+    yarn add next react react-dom
+    yarn run dev
+}
