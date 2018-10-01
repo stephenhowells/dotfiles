@@ -97,7 +97,7 @@ export PATH=$HOME/bin:$HOME/.composer/vendor/bin:$PATH
 
 export -U PATH
 
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 . `brew --prefix`/etc/profile.d/z.sh
 
