@@ -16,7 +16,8 @@ Plugin 'othree/html5.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/tabular'
 Plugin 'mattn/emmet-vim'
 Plugin 'vim-syntastic/syntastic'
@@ -35,7 +36,6 @@ set number
 syntax enable
 set t_Co=256
 colorscheme gruvbox
-" colorscheme base16-unikitty-dark
 set background=dark
 set mouse=a
 set virtualedit=onemore
