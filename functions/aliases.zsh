@@ -61,3 +61,6 @@ alias ber='bundle exec rspec'
 alias bers='bundle exec rails s'
 # Vue
 alias nuxt='vue init nuxt/starter'
+# Laravel
+alias art='php artisan'
+alias unit='vendor/bin/phpunit'
