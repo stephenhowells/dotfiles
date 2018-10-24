@@ -65,3 +65,5 @@ alias nuxt='vue init nuxt/starter'
 alias art='php artisan'
 alias unit='vendor/bin/phpunit'
 alias pcf='php-cs-fixer'
+# Node
+alias nr='npm run'

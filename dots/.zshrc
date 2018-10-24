@@ -55,6 +55,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   git
   brew
+  npm
   osx
   sudo
   zsh-autosuggestions
@@ -94,7 +95,7 @@ fi
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$HOME/bin:$HOME/.composer/vendor/bin:$PATH
+export PATH=$HOME/bin:$HOME/.composer/vendor/bin:/usr/local/sbin:$PATH
 
 export -U PATH
 
