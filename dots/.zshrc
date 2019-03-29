@@ -118,3 +118,6 @@ ensure_tmux_is_running() {
 }
 
 ensure_tmux_is_running
+
+# Added by Krypton
+export GPG_TTY=$(tty)
