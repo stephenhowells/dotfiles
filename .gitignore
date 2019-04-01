@@ -11,9 +11,6 @@
 # Secrets
 secrets/*
 
-# Editor
-.vim/**/*
-
 # Web Dev
 node_modules/
 .env

@@ -103,10 +103,6 @@ eval "$(rbenv init -)"
 
 . `brew --prefix`/etc/profile.d/z.sh
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # fzf currently installed with homebrew
 
 _not_inside_tmux() { [[ -z "$TMUX" ]] }
@@ -121,3 +117,7 @@ ensure_tmux_is_running
 
 # Added by Krypton
 export GPG_TTY=$(tty)
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

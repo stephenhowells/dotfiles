@@ -7,7 +7,6 @@ FORMULAS=(
     rbenv
     redis
     postgresql
-    heroku
     wget
     git
     tree
