@@ -54,6 +54,8 @@ alias tmuxkill='tmux kill-server'
 # Git
 alias gpom='git push origin master'
 alias gpod='git push origin dev'
+alias reset-head='git push origin +HEAD'
+alias init='git init && git add . && git commit -m "Initial Commit"'
 # Rails
 alias br='bin/rails'
 alias bundle='nocorrect bundle'
