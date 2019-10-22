@@ -16,16 +16,19 @@ Plugin 'othree/html5.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/tabular'
 Plugin 'mattn/emmet-vim'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'morhetz/gruvbox'
-Plugin 'chriskempson/base16-vim'
+" Plugin 'morhetz/gruvbox'
+" Plugin 'chriskempson/base16-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'posva/vim-vue'
 Plugin 'mxw/vim-jsx'
+Plugin 'connorholyday/vim-snazzy'
+Plugin 'itchyny/lightline.vim'
+Plugin 'kmtoki/lightline-colorscheme-simplicity'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -35,7 +38,7 @@ filetype plugin indent on    " required
 set number
 syntax enable
 set t_Co=256
-colorscheme gruvbox
+colorscheme snazzy
 set background=dark
 set mouse=a
 set virtualedit=onemore
@@ -110,11 +113,17 @@ nmap <leader>lc :tabe composer.json<cr>
 let g:vim_markdown_folding_disabled=1
 
 " Airline stuff
-set laststatus=2
+" set laststatus=2
 " let g:airline_theme = 'dark'
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
+" let g:airline_powerline_fonts = 1
+" let g:airline#extensions#tabline#enabled = 1
 
+let g:lightline = {
+\ 'colorscheme': 'simplicity',
+\ 'separator': { 'left': '', 'right': '' },
+\ 'subseparator': { 'left': '', 'right': '' }
+\ }
+set noshowmode
 " Down is really the next line
 nnoremap j gj
 nnoremap k gk
