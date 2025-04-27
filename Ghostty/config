@@ -1,0 +1,8 @@
+macos-titlebar-style = native
+shell-integration = zsh
+font-family = "MonoLisa"
+font-size = 13
+bold-is-bright = true
+adjust-cell-height = 40%
+theme = "Ayu Mirage"
+window-padding-balance

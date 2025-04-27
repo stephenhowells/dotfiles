@@ -1,43 +1,44 @@
 [user]
 	name = Stephen Howells
 	email = stephen@spaceshipoperator.io
-	signingkey = ED132BDAEC120314FAF15BA37A429091EC0F1E92
+	signingKey = B0F9C8921731B01354DEF31D766380311A6C70DB
+[commit]
+	gpgSign = true
+[gpg]
+	program = /usr/local/bin/gpg
+	format = openpgp
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+	allowedSignersFile = 
 [diff]
 	tool = Kaleidoscope
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool]
 	prompt = false
+	trustExitCode = true
 [merge]
-	tool = Kaleidoscope
+  tool = Kaleidoscope
+  conflictstyle = zdiff3
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
 [mergetool]
 	prompt = false
 	keepBackup = true
-[commit]
-	gpgsign = true
-[gpg]
-	program = /usr/local/bin/gpg
 [core]
-	pager = diff-so-fancy | less --tabs=4 -RFX
+  pager = delta
 [interactive]
-	diffFilter = diff-so-fancy --patch
+	diffFilter = delta --color-only
 [color]
 	ui = true
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
-[color "diff"]
-	meta = 11
-	frag = magenta bold
-	func = 146 bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
 [init]
 	defaultBranch = main
+[tag]
+	forceSignAnnotated = true
+[include]
+  path = /Users/stephen/.dotfiles/.config/delta/themes.gitconfig
+[delta]
+  navigate = true  # use n and N to move between diff sections
+  side-by-side = true
+  features = steve
