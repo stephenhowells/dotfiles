@@ -103,5 +103,5 @@ mas "Remote Desktop", id: 409907375
 mas "Save to Reader", id: 1640236961
 mas "Soulver 3", id: 1508732804
 mas "Ulysses", id: 1225570693
-mas 'Windows App, id: 1295203466
+mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
