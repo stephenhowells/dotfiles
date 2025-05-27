@@ -5,7 +5,6 @@ ohmyzsh/ohmyzsh path:plugins/magic-enter
 ohmyzsh/ohmyzsh path:plugins/command-not-found
 ohmyzsh/ohmyzsh path:plugins/git
 ohmyzsh/ohmyzsh path:plugins/gitignore
-ohmyzsh/ohmyzsh path:plugins/asdf
 ohmyzsh/ohmyzsh path:plugins/brew conditional:is-macos
 ohmyzsh/ohmyzsh path:plugins/macos conditional:is-macos
 ohmyzsh/ohmyzsh path:plugins/extract
@@ -21,3 +20,5 @@ zdharma-continuum/fast-syntax-highlighting kind:defer
 jessarcher/zsh-artisan
 Aloxaf/fzf-tab
 ajeetdsouza/zoxide
+stephenhowells/fzf-ai-tools
+stephenhowells/zsh-postmortem

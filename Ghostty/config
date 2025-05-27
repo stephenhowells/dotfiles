@@ -1,4 +1,4 @@
-macos-titlebar-style = native
+# macos-titlebar-style = native
 shell-integration = zsh
 font-family = "MonoLisa"
 font-size = 13

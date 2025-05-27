@@ -1,7 +1,7 @@
 [user]
 	name = Stephen Howells
 	email = stephen@spaceshipoperator.io
-	signingKey = B0F9C8921731B01354DEF31D766380311A6C70DB
+	signingKey = 6742AA341C2311D7327EBEC2DFB0FB59DB915255
 [commit]
 	gpgSign = true
 [gpg]

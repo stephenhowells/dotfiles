@@ -13,7 +13,7 @@
 
 if [[ $TERMINAL_EMULATOR != "JetBrains-JediTerm" && $TERM_PROGRAM != "vscode" && $TERM_PROGRAM != "docker_desktop" && $TERM_PROGRAM != "ghostty" && $TERM_PROGRAM != "tmux" ]]; then
   TERM=xterm-kitty
-  
+
   _not_inside_tmux() { [[ -z "$TMUX" ]] }
 
   ensure_tmux_is_running() {
@@ -93,24 +93,19 @@ fi
 # Dev Tools
 #--------------------------------------------------------------------------
 
-# pnpm
-export PNPM_HOME="/Users/stephen/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 # Herd injected PHP binary.
 export PATH="/Users/stephen/Library/Application Support/Herd/bin/":$PATH
-
-# Herd injected PHP 8.2 configuration.
-export HERD_PHP_82_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/82/"
 
 # Herd injected PHP 8.3 configuration.
 export HERD_PHP_83_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/83/"
 
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/84/"
+
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# The next line updates PATH for egcli command.
+if [ -f '/Users/stephen/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc' ]; then . '/Users/stephen/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc'; fi
 
 #--------------------------------------------------------------------------
 # Antidote
@@ -120,7 +115,12 @@ zsh_plugins=${ZDOTDIR:-~}/.zsh_plugins
 
 [[ -f ${zsh_plugins}.txt ]] || touch ${zsh_plugins}.txt
 
-fpath=($(brew --prefix)/opt/antidote/share/antidote/functions $fpath)
+fpath=(
+  $(brew --prefix)/opt/antidote/share/antidote/functions
+  ${ASDF_DATA_DIR:-$HOME/.asdf}/completions
+  $HOME/.docker/completions
+  $fpath
+)
 
 autoload -Uz antidote
 
@@ -160,7 +160,3 @@ done
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/steve.json)"
 fi
-
-
-# Herd injected PHP 8.4 configuration.
-export HERD_PHP_84_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/84/"

@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4289e2f8beb11849bfc885ec763c9c0c417</key>
-	<date>2024-09-18T01:57:05Z</date>
-	<key>48c1b5bae70e005b658d2a862d144e70417</key>
-	<date>2024-09-18T02:11:40Z</date>
+	<key>AlwaysShowFileList</key>
+	<false/>
 	<key>ApplicationAppearanceMode</key>
 	<integer>0</integer>
 	<key>ApplicationAutoSaveState</key>
@@ -27,12 +25,25 @@
 	</dict>
 	<key>ApplicationDidStartClean</key>
 	<true/>
-	<key>BBEditRegisteredOwner:15.0</key>
-	<string>Stephen Howells</string>
+	<key>AutoShowFileList</key>
+	<true/>
 	<key>BBEditSerialNumber:15.0</key>
 	<string>BEE150-2KY3J-HEPGB-HRNPK</string>
+	<key>BBEditorFont</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGpCwwTHR4fICEnVSRudWxs0w0O
+	DxARElYkY2xhc3NfEBdOU0ZvbnREZXNjcmlwdG9yT3B0aW9uc18QGk5TRm9udERlc2Ny
+	aXB0b3JBdHRyaWJ1dGVzgAgSgAAAAIAC0xQVDRYZHFdOUy5rZXlzWk5TLm9iamVjdHOi
+	FxiAA4AEohobgAWABoAHXxATTlNGb250U2l6ZUF0dHJpYnV0ZV8QE05TRm9udE5hbWVB
+	dHRyaWJ1dGUjQCgAAAAAAABeU0ZNb25vLVJlZ3VsYXLSIiMkJVokY2xhc3NuYW1lWCRj
+	bGFzc2VzXE5TRGljdGlvbmFyeaIkJlhOU09iamVjdNIiIygpXxAQTlNGb250RGVzY3Jp
+	cHRvcqIqJl8QEE5TRm9udERlc2NyaXB0b3IACAARABoAJAApADIANwBJAEwAUQBTAF0A
+	YwBqAHEAiwCoAKoArwCxALgAwADLAM4A0ADSANUA1wDZANsA8QEHARABHwEkAS8BOAFF
+	AUgBUQFWAWkBbAAAAAAAAAIBAAAAAAAAACsAAAAAAAAAAAAAAAAAAAF/
+	</data>
 	<key>BBPreferencesSelectedModuleIdentifier</key>
-	<string>BBAppearancePreferences</string>
+	<string>BBTextFilesPreferences</string>
 	<key>ChatAPIIdentifier</key>
 	<string>chatgpt</string>
 	<key>ChatGPTModel</key>
@@ -47,315 +58,28 @@
 	<true/>
 	<key>CopiedPreferencesToNewKeys_v4</key>
 	<true/>
-	<key>CustomRendererCommandArguments_Markdown</key>
-	<string></string>
-	<key>CustomRendererCommand_Markdown</key>
-	<string></string>
-	<key>DefaultRenderer_Markdown</key>
-	<integer>0</integer>
 	<key>DidMigrateTextWranglerIconSetting</key>
 	<true/>
 	<key>EditingWindowGuideContrast</key>
-	<real>1.93310546875</real>
-	<key>EditingWindowPageGuideWidth</key>
-	<integer>80</integer>
-	<key>EditingWindowShowGutter</key>
-	<false/>
+	<real>1.3662109375</real>
 	<key>EditingWindowShowPageGuide</key>
 	<false/>
-	<key>EditorAutoExpandTabs</key>
-	<true/>
 	<key>EditorCheckSpellingAsYouType</key>
 	<false/>
-	<key>EditorDefaultTabWidth</key>
-	<real>2</real>
-	<key>EditorLineSpacingMultiplier</key>
-	<real>1.1321281492248063</real>
+	<key>EditorFontSettingOverridesSavedState</key>
+	<false/>
 	<key>EditorSoftWrap</key>
 	<true/>
-	<key>EditorSoftWrapWidth</key>
-	<integer>100</integer>
-	<key>FindDialog_SearchReplaceHistory</key>
-	<array>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T20:29:05Z</date>
-			<key>SearchString</key>
-			<string>"J. Thieman, S. Mayberry Split",</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T20:27:17Z</date>
-			<key>SearchString</key>
-			<string>Zahlmann,</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T20:25:19Z</date>
-			<key>SearchString</key>
-			<string>Reisbacher,</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T20:08:00Z</date>
-			<key>SearchString</key>
-			<string>Buchanan,</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T20:04:22Z</date>
-			<key>SearchString</key>
-			<string>Lukasik,</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T19:49:11Z</date>
-			<key>SearchString</key>
-			<string>Goetzinger,</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T19:43:32Z</date>
-			<key>SearchString</key>
-			<string>Feeney,</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>ReplaceString</key>
-			<string></string>
-			<key>SearchDate</key>
-			<date>2025-04-24T19:42:56Z</date>
-			<key>SearchString</key>
-			<string>okta</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-04-16T19:54:46Z</date>
-			<key>SearchString</key>
-			<string>fileInfo</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-03-04T00:26:56Z</date>
-			<key>SearchString</key>
-			<string>Karlinskeep@gmail.com</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-03-04T00:26:18Z</date>
-			<key>SearchString</key>
-			<string>cesteamboat.com</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-01-28T05:00:18Z</date>
-			<key>SearchString</key>
-			<string>4750</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-01-28T03:44:54Z</date>
-			<key>SearchString</key>
-			<string>4125</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-01-28T03:23:22Z</date>
-			<key>SearchString</key>
-			<string>17</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-01-28T03:22:44Z</date>
-			<key>SearchString</key>
-			<string>1708855</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<false/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2025-01-28T03:22:40Z</date>
-			<key>SearchString</key>
-			<string>17.08855</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-	</array>
-	<key>FindDialog_SelectionOnly</key>
-	<false/>
-	<key>FindDialog_ShowLiveMatches</key>
-	<true/>
+	<key>ExtraSpaceInTextViews</key>
+	<integer>3</integer>
 	<key>HiddenCommands</key>
 	<array>
+		<integer>22005</integer>
+		<integer>22007</integer>
+		<integer>22008</integer>
+		<integer>22015</integer>
+		<integer>22016</integer>
+		<integer>22012</integer>
 		<integer>24200</integer>
 		<integer>24201</integer>
 		<integer>24202</integer>
@@ -377,24 +101,58 @@
 		<integer>24218</integer>
 		<integer>24219</integer>
 		<integer>24222</integer>
+		<integer>23021</integer>
+		<integer>23032</integer>
+		<integer>23017</integer>
+		<integer>23000</integer>
+		<integer>23018</integer>
+		<integer>23026</integer>
+		<integer>23022</integer>
+		<integer>23023</integer>
+		<integer>23024</integer>
+		<integer>23004</integer>
+		<integer>23025</integer>
+		<integer>23006</integer>
+		<integer>23007</integer>
+		<integer>23008</integer>
+		<integer>23009</integer>
+		<integer>23012</integer>
+		<integer>23010</integer>
+		<integer>23011</integer>
+		<integer>23031</integer>
+		<integer>23030</integer>
+		<integer>23029</integer>
+		<integer>23028</integer>
+		<integer>23027</integer>
+		<integer>23013</integer>
+		<integer>23015</integer>
+		<integer>23020</integer>
+		<integer>1101</integer>
+		<integer>1102</integer>
+		<integer>1105</integer>
+		<integer>5802</integer>
 		<integer>3400</integer>
 		<integer>239</integer>
 		<integer>225</integer>
 		<integer>226</integer>
+		<integer>5803</integer>
 	</array>
+	<key>HiddenLanguageCodes</key>
+	<array/>
 	<key>HiddenMenus</key>
 	<array>
+		<integer>2200</integer>
 		<integer>2105</integer>
+		<integer>2106</integer>
+		<integer>1136</integer>
 		<integer>1137</integer>
 	</array>
 	<key>InfoPanelSelectedTab</key>
 	<string>textStatistics</string>
-	<key>InstaprojectWindowSavedBounds:/Users/stephen/.vscode</key>
-	<string>rect(119,456,1036,1316)</string>
 	<key>KeepHistoricalBackups</key>
 	<false/>
 	<key>LastLaunchOSVersion</key>
-	<string>Version 15.4.1 (Build 24E263)</string>
+	<string>Version 15.5 (Build 24F74)</string>
 	<key>ListDisplayFont</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -415,29 +173,26 @@
 	<false/>
 	<key>NSAutomaticTextCompletionEnabled</key>
 	<false/>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 4</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{800, 448}</string>
-	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{800, 448}</string>
-	<key>NSNavPanelExpandedStateForSaveMode</key>
-	<true/>
 	<key>NSOSPLastRootDirectory</key>
 	<data>
-	Ym9va+gCAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAEA
-	AAQAAAADAwAAAAQAAAUAAAABAQAAVXNlcnMAAAAHAAAAAQEAAHN0ZXBoZW4ABwAAAAEB
-	AABEZXNrdG9wAAwAAAABBgAAEAAAACAAAAAwAAAACAAAAAQDAAAVTgAAAAAAAAgAAAAE
-	AwAAYHUAAAAAAAAIAAAABAMAAK3nAAAAAAAADAAAAAEGAABUAAAAZAAAAHQAAAAIAAAA
-	AAQAAEHF+2DzgAAAGAAAAAECAAACAAAAAAAAAB8CAAAAAAAAHwIAAAAAAAAAAAAAAQUA
-	AAgAAAAEAwAAAQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
-	AABNYWNpbnRvc2ggSEQIAAAABAMAAAAgRYzQAQAACAAAAAAEAABBxqk/R4AAACQAAAAB
-	AQAANjJENjM1OEEtRUU4OS00NEFDLTk2NDYtOTFENTYwRDc5QTdDGAAAAAECAACBAAAA
-	AQAAAO8TAAABAAAA7xMAAAEAAAABAAAAAQEAAC8AAAAwAAAAAQIAAGRuaWIAAAAAAQAA
-	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGtzZWQCAAAAAAAAAPAAAAD+////AQAAAAAA
-	AAATAAAABBAAAEAAAAAAAAAABRAAAIQAAAAAAAAAEBAAAKgAAAAAAAAAQBAAAJgAAAAA
-	AAAAAiAAAHwBAAAAAAAABSAAAOwAAAAAAAAAECAAAPwAAAAAAAAAESAAADABAAAAAAAA
-	EiAAABABAAAAAAAAEyAAACABAAAAAAAAICAAAFwBAAAAAAAAMCAAAMgAAAAAAAAAAcAA
-	ANAAAAAAAAAAEcAAACAAAAAAAAAAEsAAAOAAAAAAAAAAAdAAAMgAAAAAAAAAENAAAAQA
-	AAAAAAAAF/AAADAAAAAAAAAAIvAAAIgBAAAAAAAA
+	Ym9va5wCAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmAEA
+	AAQAAAADAwAAAAQAAAAAAAABBgAADAAAAAEBAABNYWNpbnRvc2ggSEQIAAAAAAQAAEHG
+	45qFAAAAGAAAAAECAAAKAAAAAAAAAB8CAAAAAAAAHwIAAAAAAAAAAAAAAQUAAAgAAAAB
+	CQAAZmlsZTovLy8IAAAABAMAAAAgRYzQAQAAJAAAAAEBAAA3MTc5NUQzRS0wRjIzLTQ4
+	OTgtOERGQy0yRkFBODYzNkUyNzgYAAAAAQIAAIEAAAABAAAA7xMAAAEAAADvEwAAAQAA
+	AAEAAAABAQAALwAAALQAAAABAgAAZG5pYgAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAB0A
+	AAAAAAAAHAAAAAAAAABmaWxlOi8vL1N5c3RlbS9Wb2x1bWVzL0RhdGEvNDlcsXzwxkFc
+	AAAAAAAAAGRuaWIAAAAACQAAAAAAAAAAAAAAAAAAAAAAAABrc2RoHwAAAAAAAABjb20u
+	YXBwbGUuaW9raXQuSU9TdG9yYWdlRmFtaWx5DQAAAAAAAABJbnRlcm5hbC5pY25zzAAA
+	AP7///8BAAAAAAAAABAAAAAEEAAAEAAAAAAAAAAQEAAAPAAAAAAAAAAgEAAAGAAAAAAA
+	AABAEAAALAAAAAAAAAACIAAA0AAAAAAAAAAFIAAAZAAAAAAAAAAQIAAAGAAAAAAAAAAR
+	IAAAhAAAAAAAAAASIAAAdAAAAAAAAAATIAAALAAAAAAAAAAgIAAAsAAAAAAAAAAwIAAA
+	XAAAAAAAAAAB0AAAXAAAAAAAAAAQ0AAABAAAAAAAAAAX8AAAGAAAAAAAAAAi8AAA3AAA
+	AAAAAAA=
 	</data>
 	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
 	<array>
@@ -497,245 +252,81 @@
 	<true/>
 	<key>NSTableView Supports v2 CustomLanguageSettingsList</key>
 	<true/>
-	<key>NSToolbar Configuration BBSetupConfigurationPanelToolbar</key>
-	<dict>
-		<key>TB Display Mode</key>
-		<integer>1</integer>
-		<key>TB Icon Size Mode</key>
-		<integer>1</integer>
-		<key>TB Is Shown</key>
-		<true/>
-		<key>TB Size Mode</key>
-		<integer>1</integer>
-	</dict>
 	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
 	<dict>
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame BBLanguageListPanel</key>
+	<string>282 305 636 278 0 0 1728 1079 </string>
 	<key>NSWindow Frame BBPreferences</key>
-	<string>2945 196 685 607 1728 -234 2560 1415 </string>
-	<key>NSWindow Frame BBSetupEditorWindow</key>
-	<string>1131 276 350 793 0 0 1728 1079 </string>
-	<key>NSWindow Frame ChatGPTKeyEntryPanel</key>
-	<string>606 550 559 345 0 0 1728 1079 </string>
-	<key>NSWindow Frame ClearMarkersSheet</key>
-	<string>726 363 320 411 0 0 1728 1079 </string>
-	<key>NSWindow Frame GitBranchPicker</key>
-	<string>726 503 320 408 0 0 1728 1079 </string>
+	<string>961 244 685 607 0 0 1728 1079 </string>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>309 108 224 278 0 0 1728 1079 </string>
+	<string>0 81 224 278 0 0 1728 1079 </string>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>880 153 778 235 0 0 1728 1079 </string>
+	<string>1213 105 445 235 0 0 1728 1079 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>597 330 800 360 0 0 1728 1079 </string>
-	<key>NSWindow Frame ProgressPanel</key>
-	<string>743 1206 407 137 0 0 2560 1415 </string>
-	<key>NSWindow Frame SoftwareUpdateDownloadProgress</key>
-	<string>681 628 426 167 0 0 1728 1079 </string>
-	<key>NSWindow Frame SoftwareUpdatePromptWindow</key>
-	<string>505 512 538 386 0 0 1728 1079 </string>
-	<key>NSWindow Frame SourcePickerSheet</key>
-	<string>577 347 334 467 0 0 1728 1079 </string>
+	<string>200 206 800 448 0 0 1728 1079 </string>
 	<key>NSWindow Frame StartupProgressPanel</key>
 	<string>680 493 369 109 0 0 1728 1079 </string>
-	<key>NSWindow Frame StringEntryPanel</key>
-	<string>607 490 559 155 0 0 1728 1079 </string>
-	<key>NSWindow Frame TextFactoryCommentsSheet</key>
-	<string>739 479 540 177 0 0 1728 1079 </string>
-	<key>NSWindow Frame TextFactoryReplaceAllSheet</key>
-	<string>739 403 540 329 0 0 1728 1079 </string>
-	<key>NSWindow Frame WindowPosition_v2_Find</key>
-	<string>1778 573 666 328 0 0 2560 1415 </string>
-	<key>NSWindow Frame WindowPosition_v2_HTMLUtilitiesPalette</key>
-	<string>1564 792 139 208 0 0 1728 1079 </string>
-	<key>NSWindow Frame WindowPosition_v2_Minimap</key>
-	<string>1304 253 329 695 0 0 1728 1079 </string>
 	<key>NavbarShowCounterpartButton</key>
 	<false/>
 	<key>NavbarShowDocumentNavigation</key>
 	<false/>
 	<key>NavbarShowFunctionMenu</key>
 	<false/>
-	<key>NextAutoSaveCheckTime</key>
-	<integer>2001034641</integer>
+	<key>OptionUpAndDownArrowMoveByParagraphs</key>
+	<true/>
+	<key>PinchZoomChangesMagnification</key>
+	<true/>
 	<key>PreferencesSnapshotDate</key>
-	<date>2025-04-25T15:05:37Z</date>
-	<key>ProcessLinesContaining_SearchHistory</key>
-	<array>
-		<dict>
-			<key>CaseSensitive</key>
-			<false/>
-			<key>EntireWord</key>
-			<false/>
-			<key>GrepEnabled</key>
-			<true/>
-			<key>IsExtract</key>
-			<false/>
-			<key>SearchDate</key>
-			<date>2024-09-21T21:30:23Z</date>
-			<key>SearchString</key>
-			<string>.*</string>
-			<key>WrapAround</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PropertyWindowsToReopen</key>
-	<array/>
+	<date>2025-05-24T22:47:52Z</date>
 	<key>ReadTextEncodingFallbacks</key>
 	<array>
 		<integer>0</integer>
 	</array>
 	<key>RecentItemsData</key>
 	<dict>
-		<key>Folder</key>
-		<array>
-			<dict>
-				<key>Date</key>
-				<date>2024-10-18T18:46:17Z</date>
-				<key>DocumentClass</key>
-				<string>Folder</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va4wCAAAAAAQQMAAAAPsgCMFzje34hrTG
-					GJa2lo9cEb4i7hGIxij10GRcHfwJiAEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ABwAAAAEBAAAudnNj
-					b2RlAAwAAAABBgAAEAAAACAAAAAwAAAACAAA
-					AAQDAAAVTgAAAAAAAAgAAAAEAwAAYHUAAAAA
-					AAAIAAAABAMAAIFNGQAAAAAADAAAAAEGAABU
-					AAAAZAAAAHQAAAAIAAAAAAQAAEHGTaXZTrvg
-					GAAAAAECAAACAAAAAAAAAA8AAAAAAAAAAAAA
-					AAAAAAAIAAAABAMAAAEAAAAAAAAABAAAAAMD
-					AAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAAB
-					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAIEWM
-					0AEAAAgAAAAABAAAQcZV1uSAAAAkAAAAAQEA
-					ADYyRDYzNThBLUVFODktNDRBQy05NjQ2LTkx
-					RDU2MEQ3OUE3QxgAAAABAgAAgQAAAAEAAADv
-					EwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAA
-					AAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAA
-					AAQQAABAAAAAAAAAAAUQAACEAAAAAAAAABAQ
-					AACoAAAAAAAAAEAQAACYAAAAAAAAAAIgAAB0
-					AQAAAAAAAAUgAADkAAAAAAAAABAgAAD0AAAA
-					AAAAABEgAAAoAQAAAAAAABIgAAAIAQAAAAAA
-					ABMgAAAYAQAAAAAAACAgAABUAQAAAAAAADAg
-					AACAAQAAAAAAAAHAAADIAAAAAAAAABHAAAAg
-					AAAAAAAAABLAAADYAAAAAAAAABDQAAAEAAAA
-					AAAAAA==
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/.vscode/</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>.vscode</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/.vscode/</string>
-			</dict>
-		</array>
-		<key>Notebook</key>
-		<array>
-			<dict>
-				<key>Date</key>
-				<date>2025-02-26T18:58:43Z</date>
-				<key>DocumentClass</key>
-				<string>Notebook</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va+wCAAAAAAQQMAAAAMKmJWbE4N7tGZUn
-					tEqBG0fgatm+203wJRnPNKUC9bvG6AEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAAAuZG90
-					ZmlsZXMAAAAGAAAAAQEAAEJCRWRpdAAAEQAA
-					AAEBAABOb3Rlcy5iYm5vdGVib29rZAAAABQA
-					AAABBgAAEAAAACAAAAAwAAAARAAAAFQAAAAI
-					AAAABAMAABVOAAAAAAAACAAAAAQDAABgdQAA
-					AAAAAAgAAAAEAwAA/0MLAAAAAAAIAAAABAMA
-					AHAILQAAAAAACAAAAAQDAACCCC0AAAAAABQA
-					AAABBgAAjAAAAJwAAACsAAAAvAAAAMwAAAAI
-					AAAAAAQAAEHGT7oU0SHvGAAAAAECAAACAAAA
-					AAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
-					AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJ
-					AABmaWxlOi8vLwwAAAABAQAATWFjaW50b3No
-					IEhECAAAAAQDAAAAIEWM0AEAAAgAAAAABAAA
-					QcapP0eAAAAkAAAAAQEAADYyRDYzNThBLUVF
-					ODktNDRBQy05NjQ2LTkxRDU2MEQ3OUE3QxgA
-					AAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAA
-					AAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA
-					/v///wEAAAAAAAAAEAAAAAQQAABwAAAAAAAA
-					AAUQAADcAAAAAAAAABAQAAAIAQAAAAAAAEAQ
-					AAD4AAAAAAAAAAIgAADUAQAAAAAAAAUgAABE
-					AQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAA
-					AAAAABIgAABoAQAAAAAAABMgAAB4AQAAAAAA
-					ACAgAAC0AQAAAAAAADAgAADgAQAAAAAAAAHA
-					AAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4
-					AQAAAAAAABDQAAAEAAAAAAAAAA==
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/.dotfiles/BBEdit/Notes.bbnotebookd/</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>Notes.bbnotebookd</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/.dotfiles/BBEdit/Notes.bbnotebookd/</string>
-			</dict>
-		</array>
 		<key>Text</key>
 		<array>
 			<dict>
 				<key>Date</key>
-				<date>2025-04-24T20:31:11Z</date>
+				<date>2025-05-24T18:11:40Z</date>
 				<key>DocumentClass</key>
 				<string>Text</string>
 				<key>Locator</key>
 				<dict>
 					<key>BookmarkData</key>
 					<data>
-					Ym9va9ACAAAAAAQQMAAAAB4Wqo6hm8P5ZHDP
-					YBGdOR2CIp7QP5+N95QEI470v6RKzAEAAAQA
+					Ym9va7gCAAAAAAQQMAAAAGHLf8I0vkdVdmgy
+					DaAlBXCKcGLqJiqlRW2AzczxR9IXtAEAAAQA
 					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
 					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAfAAAAAQEAAFRoaWVtYW4gMjAy
-					NSBBRFYgRW1haWwgTGlzdC5jc3YAEAAAAAEG
-					AAAQAAAAIAAAADAAAABEAAAACAAAAAQDAAAV
-					TgAAAAAAAAgAAAAEAwAAYHUAAAAAAAAIAAAA
-					BAMAAJN1AAAAAAAACAAAAAQDAACNz7MCAAAA
-					ABAAAAABBgAAhAAAAJQAAACkAAAAtAAAAAgA
-					AAAABAAAQcbdazvAs1EYAAAAAQIAAAEAAAAA
-					AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-					AgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
-					AGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
-					SEQIAAAABAMAAAAgRYzQAQAACAAAAAAEAABB
-					xrzVhQAAACQAAAABAQAANjJENjM1OEEtRUU4
-					OS00NEFDLTk2NDYtOTFENTYwRDc5QTdDGAAA
-					AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
-					AAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+
-					////AQAAAAAAAAAQAAAABBAAAGwAAAAAAAAA
-					BRAAAMQAAAAAAAAAEBAAAOwAAAAAAAAAQBAA
-					ANwAAAAAAAAAAiAAALgBAAAAAAAABSAAACgB
-					AAAAAAAAECAAADgBAAAAAAAAESAAAGwBAAAA
-					AAAAEiAAAEwBAAAAAAAAEyAAAFwBAAAAAAAA
-					ICAAAJgBAAAAAAAAMCAAAMQBAAAAAAAAAcAA
-					AAwBAAAAAAAAEcAAACAAAAAAAAAAEsAAABwB
-					AAAAAAAAENAAAAQAAAAAAAAA
+					bG9hZHMAAAAHAAAAAQEAAGZvby50eHQAEAAA
+					AAEGAAAQAAAAIAAAADAAAABEAAAACAAAAAQD
+					AADOUAAAAAAAAAgAAAAEAwAAc3wAAAAAAAAI
+					AAAABAMAAKZ8AAAAAAAACAAAAAQDAAAfLx0A
+					AAAAABAAAAABBgAAbAAAAHwAAACMAAAAnAAA
+					AAgAAAAABAAAQcbxIanuPF4YAAAAAQIAAAEA
+					AAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAE
+					AwAAAgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAA
+					AQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+					c2ggSEQIAAAABAMAAAAgRYzQAQAACAAAAAAE
+					AABBxuOahQAAACQAAAABAQAANzE3OTVEM0Ut
+					MEYyMy00ODk4LThERkMtMkZBQTg2MzZFMjc4
+					GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAA
+					AAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwA
+					AAD+////AQAAAAAAAAAQAAAABBAAAFQAAAAA
+					AAAABRAAAKwAAAAAAAAAEBAAANQAAAAAAAAA
+					QBAAAMQAAAAAAAAAAiAAAKABAAAAAAAABSAA
+					ABABAAAAAAAAECAAACABAAAAAAAAESAAAFQB
+					AAAAAAAAEiAAADQBAAAAAAAAEyAAAEQBAAAA
+					AAAAICAAAIABAAAAAAAAMCAAAKwBAAAAAAAA
+					AcAAAPQAAAAAAAAAEcAAACAAAAAAAAAAEsAA
+					AAQBAAAAAAAAENAAAAQAAAAAAAAA
 					</data>
 					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Thieman%202025%20ADV%20Email%20List.csv</string>
+					<string>file:///Users/stephen/Downloads/foo.txt</string>
 					<key>HasSecurityScope</key>
 					<true/>
 					<key>TypeID</key>
@@ -744,49 +335,48 @@
 					<integer>1</integer>
 				</dict>
 				<key>Name</key>
-				<string>Thieman 2025 ADV Email List.csv</string>
+				<string>foo.txt</string>
 				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Thieman%202025%20ADV%20Email%20List.csv</string>
+				<string>file:///Users/stephen/Downloads/foo.txt</string>
 			</dict>
 			<dict>
 				<key>Date</key>
-				<date>2025-04-24T20:28:45Z</date>
+				<date>2025-05-24T18:11:26Z</date>
 				<key>DocumentClass</key>
 				<string>Text</string>
 				<key>Locator</key>
 				<dict>
 					<key>BookmarkData</key>
 					<data>
-					Ym9va9ACAAAAAAQQMAAAAHwJ7Z2mujFHK3I+
-					khKkHzjguEdZchMs3JeMOckTOTL/zAEAAAQA
+					Ym9va7wCAAAAAAQQMAAAAM+WJL+wpp+bsASF
+					7AOjsoC3I10LkNJcnAfScG4vU2m4uAEAAAQA
 					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
 					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAeAAAAAQEAAFN1bW1pdCAyMDI1
-					IEFEViBFbWFpbCBMaXN0LmNzdgAAEAAAAAEG
-					AAAQAAAAIAAAADAAAABEAAAACAAAAAQDAAAV
-					TgAAAAAAAAgAAAAEAwAAYHUAAAAAAAAIAAAA
-					BAMAAJN1AAAAAAAACAAAAAQDAACCzbMCAAAA
-					ABAAAAABBgAAhAAAAJQAAACkAAAAtAAAAAgA
-					AAAABAAAQcbdavwWoEIYAAAAAQIAAAEAAAAA
-					AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-					AgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
-					AGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
-					SEQIAAAABAMAAAAgRYzQAQAACAAAAAAEAABB
-					xrzVhQAAACQAAAABAQAANjJENjM1OEEtRUU4
-					OS00NEFDLTk2NDYtOTFENTYwRDc5QTdDGAAA
-					AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
-					AAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+
-					////AQAAAAAAAAAQAAAABBAAAGwAAAAAAAAA
-					BRAAAMQAAAAAAAAAEBAAAOwAAAAAAAAAQBAA
-					ANwAAAAAAAAAAiAAALgBAAAAAAAABSAAACgB
-					AAAAAAAAECAAADgBAAAAAAAAESAAAGwBAAAA
-					AAAAEiAAAEwBAAAAAAAAEyAAAFwBAAAAAAAA
-					ICAAAJgBAAAAAAAAMCAAAMQBAAAAAAAAAcAA
-					AAwBAAAAAAAAEcAAACAAAAAAAAAAEsAAABwB
-					AAAAAAAAENAAAAQAAAAAAAAA
+					bG9hZHMAAAAKAAAAAQEAAHJlc3VsdC5jc3YA
+					ABAAAAABBgAAEAAAACAAAAAwAAAARAAAAAgA
+					AAAEAwAAzlAAAAAAAAAIAAAABAMAAHN8AAAA
+					AAAACAAAAAQDAACmfAAAAAAAAAgAAAAEAwAA
+					8s8GAAAAAAAQAAAAAQYAAHAAAACAAAAAkAAA
+					AKAAAAAIAAAAAAQAAEHGW3mUn0f7GAAAAAEC
+					AAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAI
+					AAAABAMAAAIAAAAAAAAABAAAAAMDAAD1AQAA
+					CAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFj
+					aW50b3NoIEhECAAAAAQDAAAAIEWM0AEAAAgA
+					AAAABAAAQcbjmoUAAAAkAAAAAQEAADcxNzk1
+					RDNFLTBGMjMtNDg5OC04REZDLTJGQUE4NjM2
+					RTI3OBgAAAABAgAAgQAAAAEAAADvEwAAAQAA
+					AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEF
+					AADMAAAA/v///wEAAAAAAAAAEAAAAAQQAABY
+					AAAAAAAAAAUQAACwAAAAAAAAABAQAADYAAAA
+					AAAAAEAQAADIAAAAAAAAAAIgAACkAQAAAAAA
+					AAUgAAAUAQAAAAAAABAgAAAkAQAAAAAAABEg
+					AABYAQAAAAAAABIgAAA4AQAAAAAAABMgAABI
+					AQAAAAAAACAgAACEAQAAAAAAADAgAACwAQAA
+					AAAAAAHAAAD4AAAAAAAAABHAAAAgAAAAAAAA
+					ABLAAAAIAQAAAAAAABDQAAAEAAAAAAAAAA==
 					</data>
 					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Summit%202025%20ADV%20Email%20List.csv</string>
+					<string>file:///Users/stephen/Downloads/result.csv</string>
 					<key>HasSecurityScope</key>
 					<true/>
 					<key>TypeID</key>
@@ -795,49 +385,50 @@
 					<integer>1</integer>
 				</dict>
 				<key>Name</key>
-				<string>Summit 2025 ADV Email List.csv</string>
+				<string>result.csv</string>
 				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Summit%202025%20ADV%20Email%20List.csv</string>
+				<string>file:///Users/stephen/Downloads/result.csv</string>
 			</dict>
 			<dict>
 				<key>Date</key>
-				<date>2025-04-24T20:26:01Z</date>
+				<date>2025-05-24T18:06:56Z</date>
 				<key>DocumentClass</key>
 				<string>Text</string>
 				<key>Locator</key>
 				<dict>
 					<key>BookmarkData</key>
 					<data>
-					Ym9va9QCAAAAAAQQMAAAALJb0xD67MRidyo9
-					CqLf7pZZrds8zED02XMI/uH3Gfx20AEAAAQA
+					Ym9va/QCAAAAAAQQMAAAADAVh6aYc0wDAFZc
+					UAgiH58K5ai20pAlkBdc17mrdAPI5AEAAAQA
 					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAiAAAAAQEAAFJlaXNiYWNoZXIg
-					MjAyNSBBRFYgRW1haWwgTGlzdC5jc3YAABAA
-					AAABBgAAEAAAACAAAAAwAAAARAAAAAgAAAAE
-					AwAAFU4AAAAAAAAIAAAABAMAAGB1AAAAAAAA
-					CAAAAAQDAACTdQAAAAAAAAgAAAAEAwAArsuz
-					AgAAAAAQAAAAAQYAAIgAAACYAAAAqAAAALgA
-					AAAIAAAAAAQAAEHG3WrJYG0XGAAAAAECAAAB
-					AAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAA
-					BAMAAAIAAAAAAAAABAAAAAMDAAD1AQAACAAA
-					AAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50
-					b3NoIEhECAAAAAQDAAAAIEWM0AEAAAgAAAAA
-					BAAAQca81YUAAAAkAAAAAQEAADYyRDYzNThB
-					LUVFODktNDRBQy05NjQ2LTkxRDU2MEQ3OUE3
-					QxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAA
-					AAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADM
-					AAAA/v///wEAAAAAAAAAEAAAAAQQAABwAAAA
-					AAAAAAUQAADIAAAAAAAAABAQAADwAAAAAAAA
-					AEAQAADgAAAAAAAAAAIgAAC8AQAAAAAAAAUg
-					AAAsAQAAAAAAABAgAAA8AQAAAAAAABEgAABw
-					AQAAAAAAABIgAABQAQAAAAAAABMgAABgAQAA
-					AAAAACAgAACcAQAAAAAAADAgAADIAQAAAAAA
-					AAHAAAAQAQAAAAAAABHAAAAgAAAAAAAAABLA
-					AAAgAQAAAAAAABDQAAAEAAAAAAAAAA==
+					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAAAuZG90
+					ZmlsZXMAAAAIAAAAAQEAAEJyZXdmaWxlEAAA
+					AAEGAAAQAAAAIAAAADAAAABEAAAACAAAAAQD
+					AADOUAAAAAAAAAgAAAAEAwAAc3wAAAAAAAAI
+					AAAABAMAAAa5BAAAAAAACAAAAAQDAAB4uQQA
+					AAAAABAAAAABBgAAbAAAAHwAAACMAAAAnAAA
+					AAgAAAAABAAAQcbiAu1ExRsYAAAAAQIAAAEA
+					AAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAE
+					AwAAAgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAA
+					AQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+					c2ggSEQIAAAABAMAAAAgRYzQAQAACAAAAAAE
+					AABBxuOahQAAACQAAAABAQAANzE3OTVEM0Ut
+					MEYyMy00ODk4LThERkMtMkZBQTg2MzZFMjc4
+					GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAA
+					AAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoA
+					AAABAQAATlNVUkxEb2N1bWVudElkZW50aWZp
+					ZXJLZXkAAAQAAAADAwAAUW4AANgAAAD+////
+					AQAAAAAAAAARAAAABBAAAFQAAAAAAAAABRAA
+					AKwAAAAAAAAAEBAAANQAAAAAAAAAQBAAAMQA
+					AAAAAAAAAiAAAKABAAAAAAAABSAAABABAAAA
+					AAAAECAAACABAAAAAAAAESAAAFQBAAAAAAAA
+					EiAAADQBAAAAAAAAEyAAAEQBAAAAAAAAICAA
+					AIABAAAAAAAAMCAAAKwBAAAAAAAAAcAAAPQA
+					AAAAAAAAEcAAACAAAAAAAAAAEsAAAAQBAAAA
+					AAAAENAAAAQAAAAAAAAAtAEAgNgBAAAAAAAA
 					</data>
 					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Reisbacher%202025%20ADV%20Email%20List.csv</string>
+					<string>file:///Users/stephen/.dotfiles/Brewfile</string>
 					<key>HasSecurityScope</key>
 					<true/>
 					<key>TypeID</key>
@@ -846,368 +437,60 @@
 					<integer>1</integer>
 				</dict>
 				<key>Name</key>
-				<string>Reisbacher 2025 ADV Email List.csv</string>
+				<string>Brewfile</string>
 				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Reisbacher%202025%20ADV%20Email%20List.csv</string>
+				<string>file:///Users/stephen/.dotfiles/Brewfile</string>
 			</dict>
 			<dict>
 				<key>Date</key>
-				<date>2025-04-24T20:23:37Z</date>
+				<date>2025-05-23T22:32:32Z</date>
 				<key>DocumentClass</key>
 				<string>Text</string>
 				<key>Locator</key>
 				<dict>
 					<key>BookmarkData</key>
 					<data>
-					Ym9va9ACAAAAAAQQMAAAAD0AHbbKtZNtwQoN
-					1NBihznVb2zX+FyxTsaQcO7HBTslzAEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAgAAAAAQEAAEJ1Y2hhbmFuIDIw
-					MjUgQURWIEVtYWlsIExpc3QuY3N2EAAAAAEG
-					AAAQAAAAIAAAADAAAABEAAAACAAAAAQDAAAV
-					TgAAAAAAAAgAAAAEAwAAYHUAAAAAAAAIAAAA
-					BAMAAJN1AAAAAAAACAAAAAQDAADqurMCAAAA
-					ABAAAAABBgAAhAAAAJQAAACkAAAAtAAAAAgA
-					AAAABAAAQcbdaMk7wrsYAAAAAQIAAAEAAAAA
-					AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-					AgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
-					AGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
-					SEQIAAAABAMAAAAgRYzQAQAACAAAAAAEAABB
-					xrzVhQAAACQAAAABAQAANjJENjM1OEEtRUU4
-					OS00NEFDLTk2NDYtOTFENTYwRDc5QTdDGAAA
-					AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
-					AAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+
-					////AQAAAAAAAAAQAAAABBAAAGwAAAAAAAAA
-					BRAAAMQAAAAAAAAAEBAAAOwAAAAAAAAAQBAA
-					ANwAAAAAAAAAAiAAALgBAAAAAAAABSAAACgB
-					AAAAAAAAECAAADgBAAAAAAAAESAAAGwBAAAA
-					AAAAEiAAAEwBAAAAAAAAEyAAAFwBAAAAAAAA
-					ICAAAJgBAAAAAAAAMCAAAMQBAAAAAAAAAcAA
-					AAwBAAAAAAAAEcAAACAAAAAAAAAAEsAAABwB
-					AAAAAAAAENAAAAQAAAAAAAAA
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Buchanan%202025%20ADV%20Email%20List.csv</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>Buchanan 2025 ADV Email List.csv</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Buchanan%202025%20ADV%20Email%20List.csv</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-04-24T20:07:37Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va9ACAAAAAAQQMAAAADi90DxdHpJnzbM/
-					fA8net1N44PGbbkGP2wCi1xtfrHEzAEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAfAAAAAQEAAEx1a2FzaWsgMjAy
-					NSBBRFYgRW1haWwgTGlzdC5jc3YAEAAAAAEG
-					AAAQAAAAIAAAADAAAABEAAAACAAAAAQDAAAV
-					TgAAAAAAAAgAAAAEAwAAYHUAAAAAAAAIAAAA
-					BAMAAJN1AAAAAAAACAAAAAQDAACYtLMCAAAA
-					ABAAAAABBgAAhAAAAJQAAACkAAAAtAAAAAgA
-					AAAABAAAQcbdaFfnbQEYAAAAAQIAAAEAAAAA
-					AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-					AgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
-					AGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
-					SEQIAAAABAMAAAAgRYzQAQAACAAAAAAEAABB
-					xrzVhQAAACQAAAABAQAANjJENjM1OEEtRUU4
-					OS00NEFDLTk2NDYtOTFENTYwRDc5QTdDGAAA
-					AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
-					AAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+
-					////AQAAAAAAAAAQAAAABBAAAGwAAAAAAAAA
-					BRAAAMQAAAAAAAAAEBAAAOwAAAAAAAAAQBAA
-					ANwAAAAAAAAAAiAAALgBAAAAAAAABSAAACgB
-					AAAAAAAAECAAADgBAAAAAAAAESAAAGwBAAAA
-					AAAAEiAAAEwBAAAAAAAAEyAAAFwBAAAAAAAA
-					ICAAAJgBAAAAAAAAMCAAAMQBAAAAAAAAAcAA
-					AAwBAAAAAAAAEcAAACAAAAAAAAAAEsAAABwB
-					AAAAAAAAENAAAAQAAAAAAAAA
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Lukasik%202025%20ADV%20Email%20List.csv</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>Lukasik 2025 ADV Email List.csv</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Lukasik%202025%20ADV%20Email%20List.csv</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-04-24T20:03:27Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va9gCAAAAAAQQMAAAANuLquvloizpsCha
-					+nmEJ6ELYEdNB6iJJIsXxFtFTMv61AEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAnAAAAAQEAAEdvZXR6aW5nZXIs
-					IFRvbSAyMDI1IEFEViBFbWFpbCBMaXN0LmNz
-					dgAQAAAAAQYAABAAAAAgAAAAMAAAAEQAAAAI
-					AAAABAMAABVOAAAAAAAACAAAAAQDAABgdQAA
-					AAAAAAgAAAAEAwAAk3UAAAAAAAAIAAAABAMA
-					AAaqswIAAAAAEAAAAAEGAACMAAAAnAAAAKwA
-					AAC8AAAACAAAAAAEAABBxt1miMloAxgAAAAB
-					AgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
-					CAAAAAQDAAACAAAAAAAAAAQAAAADAwAA9QEA
-					AAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1h
-					Y2ludG9zaCBIRAgAAAAEAwAAACBFjNABAAAI
-					AAAAAAQAAEHGvNWFAAAAJAAAAAEBAAA2MkQ2
-					MzU4QS1FRTg5LTQ0QUMtOTY0Ni05MUQ1NjBE
-					NzlBN0MYAAAAAQIAAIEAAAABAAAA7xMAAAEA
-					AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAAB
-					BQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAA
-					dAAAAAAAAAAFEAAAzAAAAAAAAAAQEAAA9AAA
-					AAAAAABAEAAA5AAAAAAAAAACIAAAwAEAAAAA
-					AAAFIAAAMAEAAAAAAAAQIAAAQAEAAAAAAAAR
-					IAAAdAEAAAAAAAASIAAAVAEAAAAAAAATIAAA
-					ZAEAAAAAAAAgIAAAoAEAAAAAAAAwIAAAzAEA
-					AAAAAAABwAAAFAEAAAAAAAARwAAAIAAAAAAA
-					AAASwAAAJAEAAAAAAAAQ0AAABAAAAAAAAAA=
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Goetzinger,%20Tom%202025%20ADV%20Email%20List.csv</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>Goetzinger, Tom 2025 ADV Email List.csv</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Goetzinger,%20Tom%202025%20ADV%20Email%20List.csv</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-04-24T19:48:10Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va9ACAAAAAAQQMAAAAICOoRBuBmI0n7cK
-					bxPQUrVmkTuFiPSu03E4H8jmdwrhzAEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAeAAAAAQEAAEZlZW5leSAyMDI1
-					IEFEViBFbWFpbCBMaXN0LmNzdgAAEAAAAAEG
-					AAAQAAAAIAAAADAAAABEAAAACAAAAAQDAAAV
-					TgAAAAAAAAgAAAAEAwAAYHUAAAAAAAAIAAAA
-					BAMAAJN1AAAAAAAACAAAAAQDAAANorMCAAAA
-					ABAAAAABBgAAhAAAAJQAAACkAAAAtAAAAAgA
-					AAAABAAAQcbdZcarcl8YAAAAAQIAAAEAAAAA
-					AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-					AgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
-					AGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
-					SEQIAAAABAMAAAAgRYzQAQAACAAAAAAEAABB
-					xrzVhQAAACQAAAABAQAANjJENjM1OEEtRUU4
-					OS00NEFDLTk2NDYtOTFENTYwRDc5QTdDGAAA
-					AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
-					AAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+
-					////AQAAAAAAAAAQAAAABBAAAGwAAAAAAAAA
-					BRAAAMQAAAAAAAAAEBAAAOwAAAAAAAAAQBAA
-					ANwAAAAAAAAAAiAAALgBAAAAAAAABSAAACgB
-					AAAAAAAAECAAADgBAAAAAAAAESAAAGwBAAAA
-					AAAAEiAAAEwBAAAAAAAAEyAAAFwBAAAAAAAA
-					ICAAAJgBAAAAAAAAMCAAAMQBAAAAAAAAAcAA
-					AAwBAAAAAAAAEcAAACAAAAAAAAAAEsAAABwB
-					AAAAAAAAENAAAAQAAAAAAAAA
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Feeney%202025%20ADV%20Email%20List.csv</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>Feeney 2025 ADV Email List.csv</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Feeney%202025%20ADV%20Email%20List.csv</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-04-17T16:01:01Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va1gDAAAAAAQQMAAAAHaQeZ/REUuEQfON
-					clW15RDyQKfcOQYCA9dFxdbT6ks3VAIAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4AAwAAAAEBAABEZXYA
-					AgAAAAEBAABKUwAABwAAAAEBAABjb25udXh0
-					AAoAAAABAQAAY29tcG9uZW50cwAABgAAAAEB
-					AABJbnB1dHMAABAAAAABAQAARmlsZVVwbG9h
-					ZGVyLnZ1ZSAAAAABBgAAEAAAACAAAAAwAAAA
-					PAAAAEgAAABYAAAAbAAAAHwAAAAIAAAABAMA
-					ABVOAAAAAAAACAAAAAQDAABgdQAAAAAAAAgA
-					AAAEAwAAsZ0PAAAAAAAIAAAABAMAALqdDwAA
-					AAAACAAAAAQDAAAmng8AAAAAAAgAAAAEAwAA
-					MqQPAAAAAAAIAAAABAMAAECkDwAAAAAACAAA
-					AAQDAABDpA8AAAAAACAAAAABBgAAvAAAAMwA
-					AADcAAAA7AAAAPwAAAAMAQAAHAEAACwBAAAI
-					AAAAAAQAAEHFfN0T3yPXGAAAAAECAAABAAAA
-					AAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
-					AAYAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJ
-					AABmaWxlOi8vLwwAAAABAQAATWFjaW50b3No
-					IEhECAAAAAQDAAAAIEWM0AEAAAgAAAAABAAA
-					Qca81YUAAAAkAAAAAQEAADYyRDYzNThBLUVF
-					ODktNDRBQy05NjQ2LTkxRDU2MEQ3OUE3QxgA
-					AAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAA
-					AAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA
-					/v///wEAAAAAAAAAEAAAAAQQAACUAAAAAAAA
-					AAUQAAA8AQAAAAAAABAQAAB0AQAAAAAAAEAQ
-					AABkAQAAAAAAAAIgAABAAgAAAAAAAAUgAACw
-					AQAAAAAAABAgAADAAQAAAAAAABEgAAD0AQAA
-					AAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAA
-					ACAgAAAgAgAAAAAAADAgAABMAgAAAAAAAAHA
-					AACUAQAAAAAAABHAAAAgAAAAAAAAABLAAACk
-					AQAAAAAAABDQAAAEAAAAAAAAAA==
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Dev/JS/connuxt/components/Inputs/FileUploader.vue</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>FileUploader.vue</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Dev/JS/connuxt/components/Inputs/FileUploader.vue</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-04-16T17:33:46Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va4QDAAAAAAQQMAAAAOW9+O6hSYmhITsf
-					9XAr3ltZhmO/Syfjfr0AkPYiPqLVgAIAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4AAwAAAAEBAABEZXYA
-					AgAAAAEBAABKUwAABwAAAAEBAABjb25udXh0
-					AAYAAAABAQAAc2VydmVyAAADAAAAAQEAAGFw
-					aQAJAAAAAQEAAGRvY3VtZW50cwAAABUAAAAB
-					AQAAcHJlc2lnbmVkLXVybC5wb3N0LnRzAAAA
-					JAAAAAEGAAAQAAAAIAAAADAAAAA8AAAASAAA
-					AFgAAABoAAAAdAAAAIgAAAAIAAAABAMAABVO
-					AAAAAAAACAAAAAQDAABgdQAAAAAAAAgAAAAE
-					AwAAsZ0PAAAAAAAIAAAABAMAALqdDwAAAAAA
-					CAAAAAQDAAAmng8AAAAAAAgAAAAEAwAAr6MP
-					AAAAAAAIAAAABAMAALSjDwAAAAAACAAAAAQD
-					AAD+ow8AAAAAAAgAAAAEAwAAAaQPAAAAAAAk
-					AAAAAQYAANQAAADkAAAA9AAAAAQBAAAUAQAA
-					JAEAADQBAABEAQAAVAEAAAgAAAAABAAAQcV7
-					VyGAIaAYAAAAAQIAAAEAAAAAAAAADwAAAAAA
-					AAAAAAAAAAAAAAgAAAAEAwAABwAAAAAAAAAE
-					AAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8v
-					DAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMA
-					AAAgRYzQAQAACAAAAAAEAABBxrzVhQAAACQA
-					AAABAQAANjJENjM1OEEtRUU4OS00NEFDLTk2
-					NDYtOTFENTYwRDc5QTdDGAAAAAECAACBAAAA
-					AQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAA
-					AAAQAAAABBAAAKgAAAAAAAAABRAAAGQBAAAA
-					AAAAEBAAAKABAAAAAAAAQBAAAJABAAAAAAAA
-					AiAAAGwCAAAAAAAABSAAANwBAAAAAAAAECAA
-					AOwBAAAAAAAAESAAACACAAAAAAAAEiAAAAAC
-					AAAAAAAAEyAAABACAAAAAAAAICAAAEwCAAAA
-					AAAAMCAAAHgCAAAAAAAAAcAAAMABAAAAAAAA
-					EcAAACAAAAAAAAAAEsAAANABAAAAAAAAENAA
-					AAQAAAAAAAAA
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Dev/JS/connuxt/server/api/documents/presigned-url.post.ts</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>presigned-url.post.ts</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Dev/JS/connuxt/server/api/documents/presigned-url.post.ts</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-04-16T13:56:52Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va/ACAAAAAAQQMAAAAFHIXFgevdGI9THQ
-					Kmc51HpM9b/NcouiKslr2y1GVHRH4AEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ABwAAAAEBAABEZXNr
-					dG9wAAgAAAABAQAAdGVzdC50eHQQAAAAAQYA
-					ABAAAAAgAAAAMAAAAEAAAAAIAAAABAMAABVO
-					AAAAAAAACAAAAAQDAABgdQAAAAAAAAgAAAAE
-					AwAArecAAAAAAAAIAAAABAMAALLcjgIAAAAA
+					Ym9va/QDAAAAAAQQMAAAAEw/7Rk2WuREwx3+
+					q7UJ2Yn5bBPfmSzPH2DbjilT9BErCAMAAAQA
+					AAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAH
+					AAAAAQEAAEJhY2t1cHMABAAAAAEBAAAyMDI1
+					CgAAAAEBAABjdXJzb3IudHh0AAAQAAAAAQYA
+					ABAAAAAgAAAAMAAAADwAAAAIAAAABAMAANhQ
+					AAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAE
+					AwAANwcQAAAAAAAIAAAABAMAAAEMEgAAAAAA
 					EAAAAAEGAABoAAAAeAAAAIgAAACYAAAACAAA
-					AAAEAABBxtf3S3M1GxgAAAABAgAAAQAAAAAA
-					AAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAC
-					AAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAA
-					ZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
-					RAgAAAAEAwAAACBFjNABAAAIAAAAAAQAAEHG
-					vNWFAAAAJAAAAAEBAAA2MkQ2MzU4QS1FRTg5
-					LTQ0QUMtOTY0Ni05MUQ1NjBENzlBN0MYAAAA
-					AQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAA
-					AAEAAAABAQAALwAAAAAAAAABBQAAGgAAAAEB
-					AABOU1VSTERvY3VtZW50SWRlbnRpZmllcktl
-					eQAABAAAAAMDAAB5iQAA2AAAAP7///8BAAAA
-					AAAAABEAAAAEEAAAUAAAAAAAAAAFEAAAqAAA
-					AAAAAAAQEAAA0AAAAAAAAABAEAAAwAAAAAAA
-					AAACIAAAnAEAAAAAAAAFIAAADAEAAAAAAAAQ
-					IAAAHAEAAAAAAAARIAAAUAEAAAAAAAASIAAA
-					MAEAAAAAAAATIAAAQAEAAAAAAAAgIAAAfAEA
-					AAAAAAAwIAAAqAEAAAAAAAABwAAA8AAAAAAA
-					AAARwAAAIAAAAAAAAAASwAAAAAEAAAAAAAAQ
-					0AAABAAAAAAAAACwAQCA1AEAAAAAAAA=
+					AAAEAABBxvB0EI+O9hgAAAABAgAAAQAAAAAA
+					AAAPAAAAAAAAAAAAAAAAAAAAGAAAAAEJAABm
+					aWxlOi8vL1ZvbHVtZXMvQmFja3Vwcy8IAAAA
+					BAMAAADgphZdAAAACAAAAAAEAABBwnukdUrh
+					NSQAAAABAQAANTgxNTVERjEtREU0Qy00MTI2
+					LTgwQzEtQjQ4OUNBRTM1NTA4GAAAAAECAAAB
+					AQAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAA
+					AQEAAC9Wb2x1bWVzL0JhY2t1cHMIAAAAAQkA
+					AGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAAAgRYzQAQAACAAAAAAEAABB
+					xuOahQAAACQAAAABAQAANzE3OTVEM0UtMEYy
+					My00ODk4LThERkMtMkZBQTg2MzZFMjc4GAAA
+					AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
+					AAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAA
+					AAAABwAAAAIgAAAkAgAAAAAAAAUgAACUAQAA
+					AAAAABAgAACkAQAAAAAAABEgAADYAQAAAAAA
+					ABIgAAC4AQAAAAAAABMgAADIAQAAAAAAACAg
+					AAAEAgAAAAAAAAQAAAADAwAAAPAAAAQAAAAD
+					AwAAAAAAAAQAAAADAwAAAQAAABQAAAABBgAA
+					mAIAAKQCAACwAgAApAIAAKQCAAAaAAAAAQEA
+					AE5TVVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5
+					AAAEAAAAAwMAAAMAAAC0AAAA/v///wEAAAAw
+					AgAADgAAAAQQAABQAAAAAAAAAAUQAACoAAAA
+					AAAAABAQAADQAAAAAAAAAEAQAADAAAAAAAAA
+					AAAgAAC8AgAAAAAAAAIgAAB8AQAAAAAAAAUg
+					AADwAAAAAAAAABAgAAAgAAAAAAAAABEgAAAw
+					AQAAAAAAABIgAAAQAQAAAAAAABMgAAAgAQAA
+					AAAAACAgAABcAQAAAAAAABDQAAAEAAAAAAAA
+					ANgCAID8AgAAAAAAAA==
 					</data>
 					<key>FileURL</key>
-					<string>file:///Users/stephen/Desktop/test.txt</string>
+					<string>file:///Volumes/Backups/2025/cursor.txt</string>
 					<key>HasSecurityScope</key>
 					<true/>
 					<key>TypeID</key>
@@ -1216,340 +499,78 @@
 					<integer>1</integer>
 				</dict>
 				<key>Name</key>
-				<string>test.txt</string>
+				<string>cursor.txt</string>
 				<key>URL</key>
-				<string>file:///Users/stephen/Desktop/test.txt</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-04-02T17:54:48Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va2wDAAAAAAQQMAAAAK6AyLKIYxFwsW2i
-					aPXD7lt0zXH8o4U2IZIQEavipYmTaAIAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4AAwAAAAEBAABEZXYA
-					BQAAAAEBAABTaXRlcwAAABUAAAABAQAAaG9y
-					aXpvbi5tc2hvd2VsbHMuY29tAAAACAAAAAEB
-					AABkYXRhYmFzZQkAAAABAQAAZmFjdG9yaWVz
-					AAAADwAAAAEBAABVc2VyRmFjdG9yeS5waHAA
-					IAAAAAEGAAAQAAAAIAAAADAAAAA8AAAATAAA
-					AGwAAAB8AAAAkAAAAAgAAAAEAwAAFU4AAAAA
-					AAAIAAAABAMAAGB1AAAAAAAACAAAAAQDAACx
-					nQ8AAAAAAAgAAAAEAwAAu9IPAAAAAAAIAAAA
-					BAMAAJRdSgIAAAAACAAAAAQDAADHXUoCAAAA
-					AAgAAAAEAwAAyV1KAgAAAAAIAAAABAMAAMpd
-					SgIAAAAAIAAAAAEGAADQAAAA4AAAAPAAAAAA
-					AQAAEAEAACABAAAwAQAAQAEAAAgAAAAABAAA
-					QcbFhoUAAAAYAAAAAQIAAAEAAAAAAAAADwAA
-					AAAAAAAAAAAAAAAAAAgAAAAEAwAABgAAAAAA
-					AAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6
-					Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAA
-					BAMAAAAgRYzQAQAACAAAAAAEAABBxrzVhQAA
-					ACQAAAABAQAANjJENjM1OEEtRUU4OS00NEFD
-					LTk2NDYtOTFENTYwRDc5QTdDGAAAAAECAACB
-					AAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAA
-					AQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAA
-					AAAAAAAQAAAABBAAAKgAAAAAAAAABRAAAFAB
-					AAAAAAAAEBAAAIgBAAAAAAAAQBAAAHgBAAAA
-					AAAAAiAAAFQCAAAAAAAABSAAAMQBAAAAAAAA
-					ECAAANQBAAAAAAAAESAAAAgCAAAAAAAAEiAA
-					AOgBAAAAAAAAEyAAAPgBAAAAAAAAICAAADQC
-					AAAAAAAAMCAAAGACAAAAAAAAAcAAAKgBAAAA
-					AAAAEcAAACAAAAAAAAAAEsAAALgBAAAAAAAA
-					ENAAAAQAAAAAAAAA
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Dev/Sites/horizon.mshowells.com/database/factories/UserFactory.php</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>UserFactory.php</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Dev/Sites/horizon.mshowells.com/database/factories/UserFactory.php</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-03-31T15:17:47Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va/wCAAAAAAQQMAAAABUE697q8XQFAt4b
-					GJCHy108NOxrr/CtfO1AxgV77IaQ+AEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAAbAAAAAQEAAFNjcmVlbnNhdmVy
-					X0VtYmVkZGVkX1NvdXJjZQAOAAAAAQEAAFNj
-					cmVlbnNhdmVyLmNzAAAUAAAAAQYAABAAAAAg
-					AAAAMAAAAEQAAABoAAAACAAAAAQDAAAVTgAA
-					AAAAAAgAAAAEAwAAYHUAAAAAAAAIAAAABAMA
-					AJN1AAAAAAAACAAAAAQDAACoQVcCAAAAAAgA
-					AAAEAwAAqkFXAgAAAAAUAAAAAQYAAJwAAACs
-					AAAAvAAAAMwAAADcAAAACAAAAAAEAABBxs10
-					wYAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAA
-					AAAAAAAAAAAACAAAAAQDAAADAAAAAAAAAAQA
-					AAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8M
-					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
-					ACBFjNABAAAIAAAAAAQAAEHGvNWFAAAAJAAA
-					AAEBAAA2MkQ2MzU4QS1FRTg5LTQ0QUMtOTY0
-					Ni05MUQ1NjBENzlBN0MYAAAAAQIAAIEAAAAB
-					AAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAA
-					LwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAA
-					ABAAAAAEEAAAgAAAAAAAAAAFEAAA7AAAAAAA
-					AAAQEAAAGAEAAAAAAABAEAAACAEAAAAAAAAC
-					IAAA5AEAAAAAAAAFIAAAVAEAAAAAAAAQIAAA
-					ZAEAAAAAAAARIAAAmAEAAAAAAAASIAAAeAEA
-					AAAAAAATIAAAiAEAAAAAAAAgIAAAxAEAAAAA
-					AAAwIAAA8AEAAAAAAAABwAAAOAEAAAAAAAAR
-					wAAAIAAAAAAAAAASwAAASAEAAAAAAAAQ0AAA
-					BAAAAAAAAAA=
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Screensaver_Embedded_Source/Screensaver.cs</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>Screensaver.cs</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Screensaver_Embedded_Source/Screensaver.cs</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-03-31T15:14:21Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va/QCAAAAAAQQMAAAANSm5LqSrB79pCdx
-					clYh+HhHNzP0zhuAAGuWuNzueBsa8AEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ACQAAAAEBAABEb3du
-					bG9hZHMAAAASAAAAAQEAAFNjcmVlbnNhdmVy
-					X1NvdXJjZQAADgAAAAEBAABTY3JlZW5zYXZl
-					ci5jcwAAFAAAAAEGAAAQAAAAIAAAADAAAABE
-					AAAAYAAAAAgAAAAEAwAAFU4AAAAAAAAIAAAA
-					BAMAAGB1AAAAAAAACAAAAAQDAACTdQAAAAAA
-					AAgAAAAEAwAAiTxXAgAAAAAIAAAABAMAAIw8
-					VwIAAAAAFAAAAAEGAACUAAAApAAAALQAAADE
-					AAAA1AAAAAgAAAAABAAAQcbNdCUAAAAYAAAA
-					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
-					AAgAAAAEAwAAAwAAAAAAAAAEAAAAAwMAAPUB
-					AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABN
-					YWNpbnRvc2ggSEQIAAAABAMAAAAgRYzQAQAA
-					CAAAAAAEAABBxrzVhQAAACQAAAABAQAANjJE
-					NjM1OEEtRUU4OS00NEFDLTk2NDYtOTFENTYw
-					RDc5QTdDGAAAAAECAACBAAAAAQAAAO8TAAAB
-					AAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAA
-					AQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAA
-					AHgAAAAAAAAABRAAAOQAAAAAAAAAEBAAABAB
-					AAAAAAAAQBAAAAABAAAAAAAAAiAAANwBAAAA
-					AAAABSAAAEwBAAAAAAAAECAAAFwBAAAAAAAA
-					ESAAAJABAAAAAAAAEiAAAHABAAAAAAAAEyAA
-					AIABAAAAAAAAICAAALwBAAAAAAAAMCAAAOgB
-					AAAAAAAAAcAAADABAAAAAAAAEcAAACAAAAAA
-					AAAAEsAAAEABAAAAAAAAENAAAAQAAAAAAAAA
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/Downloads/Screensaver_Source/Screensaver.cs</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>Screensaver.cs</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/Downloads/Screensaver_Source/Screensaver.cs</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-03-20T22:31:57Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9va7QCAAAAAAQQMAAAAKLHO1Na4s3u6aN4
-					zoUawIL3TaK/+fVAeUY43XNgyDzosAEAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ABAAAAAEBAABudHdz
-					DAAAAAEBAABsYXVuY2hlci5sb2cQAAAAAQYA
-					ABAAAAAgAAAAMAAAADwAAAAIAAAABAMAABVO
-					AAAAAAAACAAAAAQDAABgdQAAAAAAAAgAAAAE
-					AwAA31PRAAAAAAAIAAAABAMAAGRKPQEAAAAA
-					EAAAAAEGAABoAAAAeAAAAIgAAACYAAAACAAA
-					AAAEAABBxpiro6NBBBgAAAABAgAAAQAAAAAA
-					AAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAC
-					AAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAA
-					ZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
-					RAgAAAAEAwAAACBFjNABAAAIAAAAAAQAAEHG
-					vNWFAAAAJAAAAAEBAAA2MkQ2MzU4QS1FRTg5
-					LTQ0QUMtOTY0Ni05MUQ1NjBENzlBN0MYAAAA
-					AQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAA
-					AAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7/
-					//8BAAAAAAAAABAAAAAEEAAAUAAAAAAAAAAF
-					EAAAqAAAAAAAAAAQEAAA0AAAAAAAAABAEAAA
-					wAAAAAAAAAACIAAAnAEAAAAAAAAFIAAADAEA
-					AAAAAAAQIAAAHAEAAAAAAAARIAAAUAEAAAAA
-					AAASIAAAMAEAAAAAAAATIAAAQAEAAAAAAAAg
-					IAAAfAEAAAAAAAAwIAAAqAEAAAAAAAABwAAA
-					8AAAAAAAAAARwAAAIAAAAAAAAAASwAAAAAEA
-					AAAAAAAQ0AAABAAAAAAAAAA=
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/ntws/launcher.log</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>launcher.log</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/ntws/launcher.log</string>
-			</dict>
-			<dict>
-				<key>Date</key>
-				<date>2025-03-17T17:07:12Z</date>
-				<key>DocumentClass</key>
-				<string>Text</string>
-				<key>Locator</key>
-				<dict>
-					<key>BookmarkData</key>
-					<data>
-					Ym9vaxwDAAAAAAQQMAAAAF5XKYXX7r3L/75k
-					J2dTdsHQUUDkvgfPTC+V74NrtWvbDAIAAAQA
-					AAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAH
-					AAAAAQEAAHN0ZXBoZW4ABwAAAAEBAAAuY29u
-					ZmlnAAUAAAABAQAAa2l0dHkAAAAKAAAAAQEA
-					AGtpdHR5LmNvbmYAABQAAAABBgAAEAAAACAA
-					AAAwAAAAQAAAAFAAAAAIAAAABAMAABVOAAAA
-					AAAACAAAAAQDAABgdQAAAAAAAAgAAAAEAwAA
-					8UMIAAAAAAAIAAAABAMAAPJDCAAAAAAACAAA
-					AAQDAAAABz4AAAAAABQAAAABBgAAgAAAAJAA
-					AACgAAAAsAAAAMAAAAAIAAAAAAQAAEHGUm6y
-					DeY9GAAAAAECAAABAAAAAAAAAA8AAAAAAAAA
-					AAAAAAAAAAAIAAAABAMAAAMAAAAAAAAABAAA
-					AAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
-					AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA
-					IEWM0AEAAAgAAAAABAAAQca81YUAAAAkAAAA
-					AQEAADYyRDYzNThBLUVFODktNDRBQy05NjQ2
-					LTkxRDU2MEQ3OUE3QxgAAAABAgAAgQAAAAEA
-					AADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAv
-					AAAAAAAAAAEFAAAaAAAAAQEAAE5TVVJMRG9j
-					dW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMA
-					AFRvAADYAAAA/v///wEAAAAAAAAAEQAAAAQQ
-					AABkAAAAAAAAAAUQAADQAAAAAAAAABAQAAD8
-					AAAAAAAAAEAQAADsAAAAAAAAAAIgAADIAQAA
-					AAAAAAUgAAA4AQAAAAAAABAgAABIAQAAAAAA
-					ABEgAAB8AQAAAAAAABIgAABcAQAAAAAAABMg
-					AABsAQAAAAAAACAgAACoAQAAAAAAADAgAADU
-					AQAAAAAAAAHAAAAcAQAAAAAAABHAAAAgAAAA
-					AAAAABLAAAAsAQAAAAAAABDQAAAEAAAAAAAA
-					ANwBAIAAAgAAAAAAAA==
-					</data>
-					<key>FileURL</key>
-					<string>file:///Users/stephen/.config/kitty/kitty.conf</string>
-					<key>HasSecurityScope</key>
-					<true/>
-					<key>TypeID</key>
-					<string>_CFileLocator</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>Name</key>
-				<string>kitty.conf</string>
-				<key>URL</key>
-				<string>file:///Users/stephen/.config/kitty/kitty.conf</string>
+				<string>file:///Volumes/Backups/2025/cursor.txt</string>
 			</dict>
 		</array>
 	</dict>
 	<key>RecentItemsPrefDataUpgradedForSandbox</key>
 	<true/>
 	<key>SULastCheckedDate</key>
-	<date>2025-04-25T15:02:18Z</date>
-	<key>Search_mode</key>
-	<string>Ltrl</string>
+	<date>2025-05-23T21:40:57Z</date>
 	<key>SelectedColorSchemeName</key>
 	<string>BBEdit Light</string>
 	<key>SelectedColorSchemeNameDarkMode</key>
 	<string>BBEdit Dark</string>
+	<key>ShowLSPDiagnosticsInLineBar</key>
+	<false/>
+	<key>ShowTickMarksForInstancesOfSelectedText</key>
+	<true/>
+	<key>ShowTickMarksForLanguageDiagnostics</key>
+	<false/>
 	<key>ShowTickMarksForSpellingErrors</key>
 	<false/>
-	<key>SoftWrapStyle</key>
+	<key>SoftWrapIndentation</key>
 	<integer>3</integer>
+	<key>SoftWrapStyle</key>
+	<integer>2</integer>
 	<key>StartupAndResumeAction</key>
 	<integer>1</integer>
 	<key>StripTrailingWhitespace</key>
 	<true/>
-	<key>TextStatusBarShowDocumentDate</key>
-	<false/>
 	<key>TextStatusBarShowDocumentLockState</key>
 	<false/>
 	<key>TextStatusBarShowMagnification</key>
 	<false/>
-	<key>UntitledNoteCount</key>
-	<integer>4</integer>
-	<key>UseHardLineNumbersInSoftWrappedViews</key>
-	<false/>
+	<key>TrimLeadingWhitespaceWhenAutoIndenting</key>
+	<true/>
+	<key>UseLineHeightHighlightingForInstancesOfSelectedText</key>
+	<integer>1</integer>
 	<key>UserDeclinedSandboxAccess</key>
 	<true/>
 	<key>~EEBB52B48DCB96F5634C86019AD52D40EA942284</key>
 	<data>
-	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
-	W71PzUdADazhC0l4iZpW
+	AwW3Lnguu519dONcNLA3X2ytM8eB85TPicKzNS2hgmOD4iSLs8B31fi9nrKP6/u4SoPL
+	o0ha+OIN1KTyUkAkwA+AAryPbtgsaIBipj6f+jfO1Wa+98MT8Nc8ZDkzRFitQVH77GJT
+	sw2a80L8igpkT1xL4nV5pBw/F0+ajAt7u4VFC5MPHFCKnz0h9J8gP7//leO2ShrzZ9mU
+	iudAzS+q4GlhhKx5VNvfUdgtwzfGOEwiKdw7MjwO0owsd/rEib+kPaPWDjTBihH1QM4N
+	nSAhtiz87+OoMj74XbFTGiM6hWticE5SUdxjNggiu/ylN4cB0/oOfSv85CxXBOiQk2IZ
+	Fje4epfGbPX4I1YViVF1+tvLClMp3gutHBCdPMmFfIrSGk1PVdTA+1rcvnRrR0wkTMzR
+	kpgrStmdxgbvzaM9Gr1CrhBLOYrnMQAiPiylWdFYmP6URXaaeXSLW3cKGFH4hmIYvqzc
+	yFWBHX4rpJUPZCfWRJf3sSPePNd+QSFcyW011gABvwj2ae/g0/5ACp8Lp87XuSdFg3g2
+	XcUoGsUIdC/KCMtF6Nmkr1mgUC0ajrY7CgzAF02T/9PLrN1psSiEYNNr1FGpG3OeaQAD
+	A8p8qhAaMhlmhpoqm2KbCBLJqEqvL4/d+t/Cz9zGyJfbf2VhnZSOsxzXYPaeOqx4bAN0
+	2OHOd9vD//oxEeO3LKfbpRW509HCwWyyCfe1vmkQX142jbrllJwSTw2xkvufB+oc1y34
+	r41yw45ql6Ag+/Et1vUuMZdIf+S7mK+2MHU4gAvL31QPMAQbXyfc2LM4Bc9Y7Xc8CQ4c
+	1JSE3NYLpRTmU7UjkX6513wncuSXzryDLywRr8wyIBsSji2vcVIBsIRMS9zad5VtgFR3
+	/gLWQ13AEiU33JgDyoAHlAx/q+GXmaEW6fWruMRgvTBSdR+zFsvliIJd/ZdgOn52SSYR
+	n8wTpsy0msOoMr06H3ngDQAABdYAABBKQht015xWF4iBsuWmTVODZaZN7z94AIqPZczN
+	TnniAxtoSy+vj33zs9n8cLHNkHVuju9up8Uo/ldlgUofS24UZ6mfraddrO9UF1Je7TJZ
+	WwDiarBrsUg+2dFUtSPOnZ9JD5gxs51ZYWpTiR6/zjsrahj3Lz66NkARx2/BcnicDWH3
+	37kqgY5kXbDB2ZkJG4wP1RN6vnrKvmMvlwhINOKGciZbjq3amaSTHW7P6AsmcEyxmRI9
+	GPD6E+tHlw1GDHHskdSlDwf1Xj6GSebpYFcEoIOmzc9qt+rTxHi+MjDimSKBOyEkLBxH
+	jK53mkB3VoEwNEKmTGysdM4EPibl0PygxML9GGeGeZ8+G7vJgSfARyrJwP5TcX9/B47I
+	zQXValnWM8nm4PlNdyRWT3wctqE4OEaBmckVO1wMWOd/bDNVh17EdZC+LH3Hvi9QvDGm
+	hjjVxZu2r4nyn3YzqF41/IpVTq7rlaSnZq36OErcKGoZ8GkSK335KVfNQzzJHm8k661k
+	zvaHRBfgxUEFSxtB61IMZD8IMdLGtMTFx/G3a47xA7v1m5tGM8uS9H+cC1TdtFC/qEnu
+	8wldmjH88uscptGAlU9cpca4qYTpqWe++umoSQ9aDSmeXUczWqJZ+S2AKmEpVo8R4nkC
+	kqgq3hlC/tanjDXPQt1zArrZsztYPWsDvNHojm0ibnzBdgiluJ7Iidcx5spj+RlXUZE4
+	MFgtv9dErciGgDrfbB0RbN7ZABxcNaIngAv02ps9qPuT+g/HdQEP7OoPsod21s4Dc9Yg
+	I9HxXYy37/37Ol6YryRLMGZW15cpnYDU6LIqqQdE3ADtby1rFUiqx0gKxvDU6Ie8LB+9
+	vGvzp9wUXVVofxq3QADC5Gy6hFf9V5Jz9ZElH17v8dyJNICF3IG3y3Ml7Qp3ThtuIEVF
+	k3/FK78NDeBk/vfk3TUCbf4hoyRvatdxRw6Y4O7hD1TcHK2Y1S23Yu2/8PHj+cbf5/JU
+	eMdeZHmngfqeWnmw74tH
 	</data>
 </dict>
 </plist>
