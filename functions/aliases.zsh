@@ -12,6 +12,7 @@ alias search="fzf --preview '[[ -d {} ]] && tree -C {} | head -200 || lsd -lAhL 
 alias vim='nvim'
 alias rezsh='exec zsh'
 alias zshconfig='nvim ~/.zshrc'
+alias aliases='nvim ~/.dotfiles/functions/aliases.zsh'
 alias c='clear'
 alias sshkey="cat ~/.ssh/id_rsa.pub | pbcopy"
 alias v='vim'
@@ -26,6 +27,7 @@ alias cpwd='pwd|tr -d "\n"|pbcopy'
 # top
 alias cpu='top -o cpu'
 alias mem='top -o rsize' # memory
+alias mtop='sudo mactop'
 # Web tools
 alias header='curl -I'
 alias ns='dig +short NS'

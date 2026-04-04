@@ -96,11 +96,17 @@ fi
 # Herd injected PHP binary.
 export PATH="/Users/stephen/Library/Application Support/Herd/bin/":$PATH
 
+# Claude Code
+export PATH="$HOME/.local/bin:$PATH"
+
 # Herd injected PHP 8.3 configuration.
 export HERD_PHP_83_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/83/"
 
 # Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/84/"
+
+# Herd injected PHP 8.5 configuration.
+export HERD_PHP_85_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/85/"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
