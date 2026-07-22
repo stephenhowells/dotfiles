@@ -41,3 +41,17 @@ k() {
 calc() {
   bc -l <<< "$@"
 }
+
+#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
+#
+# Automatically activates .venv when you cd into a project
+
+function auto_uv_venv() {
+  if [[ -f ".venv/bin/activate" ]]; then
+    source .venv/bin/activate
+  elif [[ -n "$VIRTUAL_ENV" ]]; then
+    deactivate 2>/dev/null
+  fi
+}
+add-zsh-hook chpwd auto_uv_venv
+auto_uv_venv

@@ -27,3 +27,10 @@ Session.vim
 
 # eslint
 .eslintcache
+
+# IDE
+.vscode/
+.idea/
+
+**/.claude/settings.local.json
+

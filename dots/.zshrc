@@ -11,7 +11,9 @@
 # Bootstrap Environment
 #--------------------------------------------------------------------------
 
-if [[ $TERMINAL_EMULATOR != "JetBrains-JediTerm" && $TERM_PROGRAM != "vscode" && $TERM_PROGRAM != "docker_desktop" && $TERM_PROGRAM != "ghostty" && $TERM_PROGRAM != "tmux" ]]; then
+BREW_PREFIX=$(brew --prefix)
+
+if [[ $TERMINAL_EMULATOR != "JetBrains-JediTerm" && $TERM_PROGRAM != "vscode" && $TERM_PROGRAM != "docker_desktop" && $TERM_PROGRAM != "ghostty" && $TERM_PROGRAM != "tmux" && $TERM_PROGRAM != zed ]]; then
   TERM=xterm-kitty
 
   _not_inside_tmux() { [[ -z "$TMUX" ]] }
@@ -30,6 +32,12 @@ fi
 function is-macos() {
   [[ $OSTYPE == darwin* ]]
 }
+
+#--------------------------------------------------------------------------
+# Adjust Path
+#--------------------------------------------------------------------------
+
+typeset -U path fpath
 
 #--------------------------------------------------------------------------
 # Keybindings
@@ -55,22 +63,7 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 
 #--------------------------------------------------------------------------
-# Styling
-#--------------------------------------------------------------------------
-
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
-zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
-zstyle '*:matches' group 'yes'
-zstyle ':completion:*' group-name ''
-zstyle ':completion:*' group-order files directories
-zstyle ':completion:*' verbose yes
-zstyle ':omz:plugins:alias-finder' autoload yes
-zstyle ':omz:plugins:alias-finder' cheaper yes
-
-#--------------------------------------------------------------------------
-# FZF Preview Navigation & Sizing
+# FZF
 #--------------------------------------------------------------------------
 
 export FZF_DEFAULT_OPTS="
@@ -78,6 +71,8 @@ export FZF_DEFAULT_OPTS="
   --preview-window 'right:60%:wrap'
   --height 80%
 "
+
+export FZF_CTRL_R_OPTS="--sort --exact"
 
 #--------------------------------------------------------------------------
 # Preferred Editor
@@ -99,6 +94,9 @@ export PATH="/Users/stephen/Library/Application Support/Herd/bin/":$PATH
 # Claude Code
 export PATH="$HOME/.local/bin:$PATH"
 
+# Composer
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+
 # Herd injected PHP 8.3 configuration.
 export HERD_PHP_83_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/83/"
 
@@ -107,8 +105,6 @@ export HERD_PHP_84_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd
 
 # Herd injected PHP 8.5 configuration.
 export HERD_PHP_85_INI_SCAN_DIR="/Users/stephen/Library/Application Support/Herd/config/php/85/"
-
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # The next line updates PATH for egcli command.
 if [ -f '/Users/stephen/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc' ]; then . '/Users/stephen/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc'; fi
@@ -122,9 +118,9 @@ zsh_plugins=${ZDOTDIR:-~}/.zsh_plugins
 [[ -f ${zsh_plugins}.txt ]] || touch ${zsh_plugins}.txt
 
 fpath=(
-  $(brew --prefix)/opt/antidote/share/antidote/functions
-  ${ASDF_DATA_DIR:-$HOME/.asdf}/completions
+  $BREW_PREFIX/opt/antidote/share/antidote/functions
   $HOME/.docker/completions
+  $HOME/.cache/zsh/completions
   $fpath
 )
 
@@ -136,20 +132,27 @@ fi
 
 source ${zsh_plugins}.zsh
 
-autoload -Uz compinit && compinit
+autoload -Uz compinit
+if [[ -n ~/.zcompdump(#qN.mh+24) ]]; then
+  compinit
+else
+  compinit -C
+fi
 
 #--------------------------------------------------------------------------
-# Shell Integration
+# Styling
 #--------------------------------------------------------------------------
 
-eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
-
-#--------------------------------------------------------------------------
-# Adjust Path
-#--------------------------------------------------------------------------
-
-typeset -U path fpath
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+zstyle '*:matches' group 'yes'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' group-order files directories
+zstyle ':completion:*' verbose yes
+zstyle ':omz:plugins:alias-finder' autoload yes
+zstyle ':omz:plugins:alias-finder' cheaper yes
 
 #--------------------------------------------------------------------------
 # Source Custom Files
@@ -159,10 +162,33 @@ for file in ${ZDOTDIR:-~}/.dotfiles/functions/*.zsh; do
   [ -f "$file" ] && source "$file"
 done
 
+for file in ${ZDOTDIR:-~}/.dotfiles/secrets/*.zsh; do
+  [ -f "$file" ] && source "$file"
+done
+
 #--------------------------------------------------------------------------
-# Load Oh My Posh
+# Load Starship
 #--------------------------------------------------------------------------
 
-if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/steve.json)"
-fi
+eval "$(starship init zsh)"
+
+#--------------------------------------------------------------------------
+# Shell Integration
+#--------------------------------------------------------------------------
+
+eval "$(fzf --zsh)"
+eval "$(zoxide init --cmd cd zsh)"
+eval "$(pay-respects zsh --alias)"
+
+#--------------------------------------------------------------------------
+# Mise
+#--------------------------------------------------------------------------
+
+export MISE_ACTIVATE_AGGRESSIVE=1
+eval "$(mise activate zsh)"
+
+#--------------------------------------------------------------------------
+# Keep Zoxide quiet in Claude
+#--------------------------------------------------------------------------
+
+_ZO_DOCTOR=0

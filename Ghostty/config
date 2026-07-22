@@ -1,8 +1,10 @@
 # macos-titlebar-style = native
 shell-integration = zsh
 font-family = "Cartograph CF Light"
-font-size = 13
+font-size = 14
 bold-is-bright = true
 adjust-cell-height = 40%
-theme = "Ayu Mirage"
+theme = "Bluloco Light"
 window-padding-balance
+cursor-style = bar
+cursor-style-blink = true

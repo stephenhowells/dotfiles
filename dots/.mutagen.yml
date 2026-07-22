@@ -1,0 +1,11 @@
+sync:
+  defaults:
+    ignore:
+      paths:
+        - ".git"
+        - ".gitignore"
+    permissions:
+      defaultFileMode: "0660"
+      defaultDirectoryMode: "0770"
+    mode: "one-way-replica"
+    stageMode: "internal"

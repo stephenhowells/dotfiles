@@ -1,44 +1,51 @@
 [user]
-	name = Stephen Howells
-	email = stephen@spaceshipoperator.io
-	signingKey = 6742AA341C2311D7327EBEC2DFB0FB59DB915255
+  name = Stephen Howells
+  email = stephen@spaceshipoperator.io
+  signingKey = 6742AA341C2311D7327EBEC2DFB0FB59DB915255
 [commit]
-	gpgSign = true
+  gpgSign = true
 [gpg]
-	program = /usr/local/bin/gpg
-	format = openpgp
+  program = /usr/local/bin/gpg
+  format = openpgp
 [gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
-	allowedSignersFile = 
+  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+  allowedSignersFile =
 [diff]
-	tool = Kaleidoscope
+  tool = Kaleidoscope
 [difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool]
-	prompt = false
-	trustExitCode = true
+  prompt = false
+  trustExitCode = true
 [merge]
   tool = Kaleidoscope
   conflictstyle = zdiff3
 [mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+  trustExitCode = true
 [mergetool]
-	prompt = false
-	keepBackup = true
+  prompt = false
+  keepBackup = true
 [core]
   pager = delta
+  excludesFile = /Users/stephen/.gitignore
 [interactive]
-	diffFilter = delta --color-only
+  diffFilter = delta --color-only
 [color]
-	ui = true
+  ui = true
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [tag]
-	forceSignAnnotated = true
+  forceSignAnnotated = true
 [include]
   path = /Users/stephen/.dotfiles/.config/delta/themes.gitconfig
 [delta]
   navigate = true  # use n and N to move between diff sections
   side-by-side = true
   features = steve
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

@@ -66,3 +66,6 @@ alias x='pnpm dlx'
 alias nrd='npm run dev'
 # Vue
 alias vd='nohup ./node_modules/.bin/vue-devtools &>/dev/null &'
+
+#Cleanup
+unalias gk

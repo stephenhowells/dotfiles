@@ -1,0 +1,14 @@
+onboarding = false
+[ui.toast]
+delivery = "system"
+
+[theme]
+name = "catppuccin-latte"
+auto_switch = false
+
+[ui]
+agent_panel_sort = "spaces"
+
+[keys]
+prefix = "ctrl+a"
+split_vertical = "prefix+|"
